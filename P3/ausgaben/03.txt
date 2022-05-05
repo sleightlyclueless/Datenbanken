@@ -1,0 +1,6 @@
+ nachname | vorname | flugnr 
+----------+---------+--------
+ Roth     | Michael | LH-100
+ Schestag | Inge    | LH-100
+(2 Zeilen)
+

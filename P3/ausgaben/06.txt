@@ -1,0 +1,9 @@
+ nachname | vorname  | anzahl 
+----------+----------+--------
+ Schestag | Inge     |      8
+ Roth     | Michael  |      4
+ Peter    | Thorsten |      1
+ Ruehl    | Stefan   |      1
+ Störl    | Uta      |      1
+(5 Zeilen)
+

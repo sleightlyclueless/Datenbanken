@@ -1,0 +1,5 @@
+ iata |                fhname                 |   lon    |   lat   
+------+---------------------------------------+----------+---------
+ PEK  | Beijing Capital International Airport | 116.5975 | 40.0725
+(1 Zeile)
+

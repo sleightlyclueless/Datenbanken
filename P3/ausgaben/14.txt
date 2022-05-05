@@ -1,0 +1,7 @@
+ ziel | anzahl 
+------+--------
+ ORD  |      2
+ ATL  |      2
+ DXB  |      2
+(3 Zeilen)
+

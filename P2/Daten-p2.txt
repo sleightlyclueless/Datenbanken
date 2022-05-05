@@ -1,0 +1,39 @@
+--Neue Flughäfen--
+ iata |                      Name                        |Längengrad   |Breitengrad    
+------+--------------------------------------------------+-------------+------------
+ WDH  | Hosea Kutako International Airport               |    17.47095 | -22.479894
+(1 Zeile)
+
+--Neue Flüge--
+ flugNr | ziel | start 
+--------+------+-------
+ LH-204 | FRA  | LHR
+(1 Zeile)
+
+--Neue Abflüge--
+ flugNr |   Datum    |Kennzeichen
+--------+------------+-----------
+ LH-204 | 2018-01-10 | D-ABBF
+ LH-204 | 2018-03-10 | D-ABBI
+ LH-204 | 2018-08-10 | D-ABBM
+(3 Zeilen)
+
+--Passagiere--
+ knr | nachname | vorname  | bonusmeilen 
+-----+----------+----------+-------------
+   1 | Roth     | Michael  |           0
+   2 | Schestag | Inge     |           0
+   3 | Störl    | Uta      |           0
+   4 | Muth     | Peter    |           0
+   5 | Peter    | Thorsten |           0
+   6 | Ruehl    | Stefan   |           0
+(6 Zeilen)
+
+--Buchungen--
+ knr | flugnr |   datum    |  preis  
+-----+--------+------------+---------
+   1 | LH-100 | 2018-01-10 | $100.00
+   5 | LH-102 | 2018-04-10 | $100.00
+   6 | LH-104 | 2018-07-10 | $100.00
+(3 Zeilen)
+

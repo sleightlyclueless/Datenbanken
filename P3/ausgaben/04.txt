@@ -1,0 +1,9 @@
+                      fhname                      
+--------------------------------------------------
+ Hartsfield-Jackson International Airport Atlanta
+ Chicago O Hare International Airport
+ Dubai International Airport
+ Frankfurt Airport
+ Beijing Capital International Airport
+(5 Zeilen)
+

@@ -1,0 +1,45 @@
+Connect / Register for Database Server
+ssh stsezill@postgres.fbi.h-da.de
+************
+
+=======================================================
+
+Create own custom Database Schema at postgres psql server
+(quasi Unterordner der eigenen Datenbanken)
+psql -h postgres.fbi.h-da.de -U stsezill
+************
+\dn = Bestehende Datenbanken ansehen
+(sebipaul = Schemaname / Rollenname)
+
+Schema erstellen:
+CREATE ROLE sebipaul LOGIN PASSWORT 'datenbanken';
+GRANT CONNECT ON DATABASE stpabart TO sebipaul;
+
+GRANT sebipaul TO stpabart;
+CREATE SCHEMA sebipaul AUTHORIZATION sebipaul;
+
+=======================================================
+
+Connect to custom Database at postgres server (je nach dem bei wem)
+psql -h postgres.fbi.h-da.de -U sebipaul -d stpabart
+psql -h postgres.fbi.h-da.de -U sebipaul -d stsezill
+***********
+
+=======================================================
+
+\i skriptname.sql = insert etc skripts aus selbem Ordner ausführen
+\d = übersicht über aktuelle Datenbanken anzeigen
+=> NORMAL SQL einfach so (;;;)
+
+
+=======================================================
+Fremdschlüssel werden erst ganz zum Schluss im create Skript generiert,
+weil Tabellen mit diesen Attributen evtl noch nicht existieren
+(in komplexeren Datenbanken).
+Deswegen werden erstmal alle Tabellen created
+
+
+
+
+
+

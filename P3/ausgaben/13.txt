@@ -1,0 +1,11 @@
+       typ       | gesamt 
+-----------------+--------
+ Airbus A380-800 |   3054
+ Airbus A330-300 |   2596
+ Airbus A340-600 |    852
+ Boeing B737-700 |    690
+ Airbus A350-900 |    293
+ Airbus A340-300 |    280
+ Airbus A320-200 |    168
+(7 Zeilen)
+

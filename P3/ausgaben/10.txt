@@ -1,0 +1,6 @@
+ start_datum | flugnr | start | zwischenstop | zwischenstopp_start_datum | flugnr | ziel 
+-------------+--------+-------+--------------+---------------------------+--------+------
+ 2018-03-10  | LH-105 | FRA   | LHR          | 2018-03-10                | LH-201 | PEK
+ 2018-03-10  | LH-105 | FRA   | LHR          | 2018-05-10                | LH-201 | PEK
+(2 Zeilen)
+

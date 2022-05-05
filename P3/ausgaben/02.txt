@@ -1,0 +1,19 @@
+ nachname | vorname  | flugnr 
+----------+----------+--------
+ Roth     | Michael  | LH-100
+ Peter    | Thorsten | LH-102
+ Ruehl    | Stefan   | LH-104
+ Roth     | Michael  | LH-100
+ Schestag | Inge     | LH-100
+ Störl    | Uta      | LH-100
+ Roth     | Michael  | LH-105
+ Roth     | Michael  | LH-200
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+ Schestag | Inge     | LH-100
+(15 Zeilen)
+
